@@ -13,13 +13,3 @@ filter_ext(process.argv[2], process.argv[3], function (err, data){
     console.log(data[idx]);
   }
 });
-
-// function errorHandler(err, data){
-//   if(err){
-//     console.err(err);
-//     process.exit(1);
-//   }
-//   console.log(data);
-// }
-
-// filter_ext(process.argv[2], process.argv[3], errorHandler(err, data));
